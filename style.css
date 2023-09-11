@@ -491,6 +491,9 @@ section .container {
   .cv-button {
     margin: auto;
   }
+  .br-about {
+    display: none;
+  }
 }
 /**
 * Counts
