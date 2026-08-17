@@ -1,29 +1,30 @@
 function Hero() {
   return (
-    <section id="about" className="border-b border-white/5 bg-[#080b12]">
+    <section className="border-b border-white/5 bg-[#080b12]">
       <div className="mx-auto grid min-h-[calc(100vh-48px)] max-w-280 items-center gap-14 px-6 py-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:py-20">
         {/* Left Content */}
         <div>
           {/* Availability */}
           <div className="mb-5 flex items-center gap-2">
             <span className="h-1.5 w-1.5 rounded-full bg-[#6366f1]" />
+
             <span className="font-mono text-[10px] font-semibold uppercase tracking-[0.18em] text-[#6366f1]">
               Available for new opportunities
             </span>
           </div>
 
           {/* Heading */}
-          <h1 className="text-4xl font-bold tracking-[-0.035em] text-slate-100 sm:text-5xl lg:text-[46px] lg:leading-[1.05]">
+          <h1 className="text-4xl font-bold tracking-[-0.035em] text-slate-100 sm:text-5xl lg:text-[50px] lg:leading-[1.05]">
             Alexandros Oikonomou
           </h1>
 
           {/* Role */}
-          <h2 className="mt-4 text-2xl font-semibold tracking-[-0.02em] text-slate-400 sm:text-[26px]">
+          <h2 className="mt-4 text-2xl font-semibold tracking-[-0.02em] text-slate-400 sm:text-[28px]">
             Software Engineer
           </h2>
 
           {/* Description */}
-          <p className="mt-5 max-w-125 text-[16px] leading-[1.55] text-slate-400">
+          <p className="mt-5 max-w-125 text-[17px] leading-[1.55] text-slate-400">
             Passionate about building reliable, efficient, and user-focused
             software solutions. I enjoy solving problems, exploring new
             technologies, and continuously improving my skills while turning
@@ -31,17 +32,17 @@ function Hero() {
           </p>
 
           {/* CTA Buttons */}
-          <div className="mt-5 flex flex-wrap gap-3">
+          <div className="mt-6 flex flex-wrap gap-3">
             <a
               href="#contact"
-              className="rounded-md bg-[#6366f1] px-5 py-2.5 text-[12px] font-medium text-white transition-colors hover:bg-[#5558e8]"
+              className="rounded-md bg-[#6366f1] px-5 py-2.5 text-[13px] font-medium text-white transition-colors hover:bg-[#5558e8]"
             >
               Get in Touch
             </a>
 
             <a
               href="#projects"
-              className="rounded-md border border-white/10 bg-transparent px-5 py-2.5 text-[12px] font-medium text-slate-300 transition-colors hover:border-white/20 hover:bg-white/5 hover:text-white"
+              className="rounded-md border border-white/10 bg-transparent px-5 py-2.5 text-[13px] font-medium text-slate-300 transition-colors hover:border-white/20 hover:bg-white/5 hover:text-white"
             >
               View Projects
             </a>
@@ -65,7 +66,7 @@ function Hero() {
 
           {/* Code */}
           <div className="p-4">
-            <pre className="overflow-x-auto font-mono text-[10px] leading-[1.85] text-slate-500">
+            <pre className="overflow-x-auto font-mono text-[11px] leading-[1.85] text-slate-500">
               <code>
                 <span className="text-slate-400">const</span>{" "}
                 <span className="text-slate-300">developer</span> = {"{"}
