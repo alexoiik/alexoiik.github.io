@@ -20,15 +20,12 @@ function Hero() {
 
           {/* Role */}
           <h2 className="mt-4 text-2xl font-semibold tracking-[-0.02em] text-slate-400 sm:text-[28px]">
-            Software Engineer
+            Software Engineer | Developer
           </h2>
 
           {/* Description */}
           <p className="mt-5 max-w-125 text-[17px] leading-[1.55] text-slate-400">
-            Passionate about building reliable, efficient, and user-focused
-            software solutions. I enjoy solving problems, exploring new
-            technologies, and continuously improving my skills while turning
-            ideas into practical applications.
+            Turning ideas into practical applications.
           </p>
 
           {/* CTA Buttons */}
@@ -77,8 +74,10 @@ function Hero() {
                 ,{"\n"}
                 {"  "}
                 <span className="text-slate-300">role</span>:{" "}
-                <span className="text-emerald-400">"Software Engineer"</span>,
-                {"\n"}
+                <span className="text-emerald-400">
+                  "Software Engineer | Developer"
+                </span>
+                ,{"\n"}
                 {"  "}
                 <span className="text-slate-300">education</span>:{" "}
                 <span className="text-emerald-400">
@@ -87,8 +86,10 @@ function Hero() {
                 ,{"\n"}
                 {"  "}
                 <span className="text-slate-300">location</span>:{" "}
-                <span className="text-emerald-400">"Ioannina, Greece"</span>,
-                {"\n"}
+                <span className="text-emerald-400">
+                  "Ioannina, Thessaloniki, Greece"
+                </span>
+                ,{"\n"}
                 {"  "}
                 <span className="text-slate-300">github</span>:{" "}
                 <span className="text-emerald-400">"alexoiik"</span>

@@ -24,24 +24,37 @@ function About() {
 
           {/* Heading */}
           <h2 className="max-w-125 text-[30px] font-bold leading-[1.08] tracking-[-0.035em] text-slate-100 sm:text-[32px]">
-            Building software with <br className="hidden sm:block" />
-            purpose and precision.
+            Hi, I'm Alexandros Oikonomou, <br className="hidden sm:block" />a
+            Software Engineer & Developer
           </h2>
 
-          {/* First Paragraph */}
+          {/* Introduction */}
           <p className="mt-5 max-w-135 text-[15px] leading-[1.6] text-slate-400 sm:text-[16px]">
-            I&apos;m a Software Engineer who enjoys turning ideas into reliable
-            and practical software solutions. I focus on writing clean,
-            maintainable code while paying attention to performance, usability
-            and detail that make software work well.
+            Based in Ioannina, Greece, I am passionate about programming and
+            software engineering, with a solid foundation in both back-end and
+            front-end development.
           </p>
 
-          {/* Second Paragraph */}
+          {/* Key Skills & Focus */}
           <p className="mt-4 max-w-135 text-[15px] leading-[1.6] text-slate-400 sm:text-[16px]">
-            I&apos;m always looking to learn, explore new technologies, and
-            improve the way I build. From developing applications to solving
-            challenging technical problems, I enjoy the process of turning ideas
-            into solutions that are useful, efficient, and built to last.
+            My core focus is on front-end development, working primarily with
+            React, TailwindCSS, JavaScript, and TypeScript. My main goal is to
+            continuously refine my skills and stay up to date with modern
+            technology advancements.
+          </p>
+
+          {/* Core Philosophy */}
+          <p className="mt-4 max-w-135 text-[15px] leading-[1.6] text-slate-400 sm:text-[16px]">
+            Overall, I enjoy turning ideas into reliable, practical software
+            solutions. I focus on writing clean, maintainable code with strong
+            attention to performance, usability, and detail.
+          </p>
+
+          {/* Interests & Personal Life */}
+          <p className="mt-4 max-w-135 text-[15px] leading-[1.6] text-slate-400 italic sm:text-[16px]">
+            Outside of coding, you'll often find me traveling, working out at
+            the gym, running, or playing basketball to stay active and
+            energized.
           </p>
 
           {/* Technology Tags */}

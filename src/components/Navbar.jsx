@@ -34,7 +34,7 @@ function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-xs font-medium text-slate-400 transition-colors hover:text-white"
+                className="text-sm font-medium text-slate-400 transition-colors hover:text-white"
               >
                 {link.label}
               </a>
