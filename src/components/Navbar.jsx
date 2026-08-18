@@ -1,15 +1,8 @@
 import { useState } from "react";
+import { navigationLinks } from "../data/navigation";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const links = [
-    { label: "About", href: "#about" },
-    { label: "Experience", href: "#experience" },
-    { label: "Education", href: "#education" },
-    { label: "Projects", href: "#projects" },
-    { label: "Contact", href: "#contact" },
-  ];
 
   const closeMenu = () => {
     setIsMenuOpen(false);
@@ -30,7 +23,7 @@ function Navbar() {
 
           {/* Desktop Links */}
           <div className="hidden items-center gap-8 md:flex">
-            {links.map((link) => (
+            {navigationLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
@@ -99,7 +92,7 @@ function Navbar() {
         {isMenuOpen && (
           <div className="border-t border-white/5 py-4 md:hidden">
             <div className="flex flex-col gap-1">
-              {links.map((link) => (
+              {navigationLinks.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}

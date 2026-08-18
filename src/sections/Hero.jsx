@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <section className="border-b border-white/5 bg-[#080b12]">
-      <div className="mx-auto grid min-h-[calc(100vh-48px)] max-w-280 items-center gap-14 px-6 py-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:py-20">
+      <div className="mx-auto grid min-h-[calc(100vh-56px)] max-w-280 items-center gap-14 px-6 py-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:py-20">
         {/* Left Content */}
         <div>
           {/* Availability */}
