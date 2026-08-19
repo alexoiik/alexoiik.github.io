@@ -34,7 +34,7 @@ function Certifications() {
                 </div>
 
                 {/* Body: Title & Issuer */}
-                <div className="mt-6">
+                <div className="mt-2">
                   <h3 className="text-xl font-bold tracking-tight text-slate-100 sm:text-2xl">
                     {item.title}
                   </h3>
