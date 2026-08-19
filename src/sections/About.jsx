@@ -30,9 +30,11 @@ function About() {
 
           {/* Introduction */}
           <p className="mt-5 max-w-135 text-[15px] leading-[1.6] text-slate-400 sm:text-[16px]">
-            Based in Ioannina, Greece, I am passionate about programming and
-            software engineering, with a solid foundation in both back-end and
-            front-end development.
+            Based in Ioannina, Greece, I specialize in building software
+            solutions across both back-end and front-end technologies. I’ve been
+            coding since 2020 and have independently built around 20 projects,
+            gaining hands-on experience with a variety of technologies,
+            frameworks and development challenges.
           </p>
 
           {/* Key Skills & Focus */}

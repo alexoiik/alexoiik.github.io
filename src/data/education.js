@@ -2,7 +2,7 @@ import { GraduationCap, School } from "lucide-react";
 
 export const educationData = [
     {
-        year: "2017 - 2019",
+        year: "2016 - 2019",
         degree: "High School Diploma",
         institution: "2nd General High School of Ioannina",
         icon: School,
