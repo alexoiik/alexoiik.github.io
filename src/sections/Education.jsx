@@ -34,7 +34,7 @@ function Education() {
 
                 {/* Body: Institution & Degree */}
                 <div className="mt-2">
-                  <h3 className="text-xl font-bold tracking-tight text-slate-100 sm:text-2xl">
+                  <h3 className="text-[18px] font-bold tracking-tight text-slate-100 sm:text-[20px]">
                     {item.degree}
                   </h3>
 

@@ -35,7 +35,7 @@ function Certifications() {
 
                 {/* Body: Title & Issuer */}
                 <div className="mt-2">
-                  <h3 className="text-xl font-bold tracking-tight text-slate-100 sm:text-2xl">
+                  <h3 className="text-[18px] font-bold tracking-tight text-slate-100 sm:text-[20px]">
                     {item.title}
                   </h3>
                   <p className="mt-2 text-sm text-slate-400">{item.issuer}</p>
