@@ -259,7 +259,7 @@ export const projects = [
         title: "AI Graph Search",
         description:
             "A smart graph search based on the fundamental AI algorithms: BFS (Breadth-First Search) and DFS (Depth First Search).",
-        technologies: ["Python"],
+        technologies: ["Python", "VSCode"],
         filters: {
             type: "Academic",
             language: ["Python"],
@@ -286,7 +286,8 @@ export const projects = [
                 "Multi-Goal Pathfinding: Traverses from an Initial State (Node I) across a weighted, directed graph targeting multiple destination states.",
             ],
             techStack: [
-                "Python"
+                "Python",
+                "VSCode",
             ],
             approach:
                 "Built as a lightweight Python CLI application using custom Queue (FIFO) and Stack (LIFO) data structures to model search-front expansions. The program processes directed adjacency models to systematically traverse states and extract optimal paths directly to the console.",
@@ -540,6 +541,135 @@ export const projects = [
                 "Constructed a collaborative filtering workflow in RStudio using the K-Nearest Neighbors (kNN) algorithm. Structured the project by loading raw reader review data, building a user-item matrix, measuring similarity metrics between readers, and projecting estimated scores onto unrated books to deliver personalized recommendations.",
             links: {
                 github: "https://github.com/alexoiik/Recommender-System"
+            },
+        },
+    },
+    {
+        id: 13,
+        title: "UniSystem",
+        description:
+            "A University Information System, created for the purpose of an easy and smooth storage of all students, and their information, in the system of a University. This project created in NetBeans, programmed with Java and the GUI designed with JavaSwing. UniSystem saves its data to PostgreSQL, using JDBC.",
+        technologies: ["Java", "JavaSwing", "PostgreSQL", "JDBC", "NetBeans"],
+        filters: {
+            type: "Academic",
+            language: ["Java", "SQL"],
+            platform: ["Desktop"],
+            role: ["Software Engineer", "Designer", "Team Lead"],
+        },
+        details: {
+            type: "Academic",
+            period: "Oct 2022 - Nov 2022 · 2 mos",
+            role: ["Software Engineer", "Designer", "Team Lead"],
+            languages: ["Java", "SQL"],
+            platforms: ["Desktop"],
+            teamSize: "2",
+            contribution:
+                "Led a 2-person development team through system design and execution, directing GUI architecture, setting up JDBC connection patterns, and designing PostgreSQL triggers and stored procedures.",
+            highlights: [
+                "Directed the end-to-end development of a multi-tab desktop information system to streamline student record-keeping.",
+                "Architected a relational PostgreSQL database schema and oversaw implementation of automated audit logs via triggers.",
+                "Guided component design in Java Swing to deliver a clean, dark-themed interface with tabular filtering and CRUD functionality.",
+            ],
+            features: [
+                "Tabbed Desktop Navigation: Organized view sections split into core student profiles, contact details, personal info, semester courses, and extra academic metadata.",
+                "Full CRUD Operations: Allows administrators to create, edit, delete, and clear records across connected database tables.",
+                "Real-Time Query Filtering: Integrated quick-search functionality to filter tables dynamically by Student ID.",
+                "Automated Audit Logging: Utilizes PostgreSQL triggers and stored procedures to generate background log files on data modifications.",
+            ],
+            techStack: [
+                "Java", "JavaSwing", "PostgreSQL", "JDBC", "NetBeans"
+            ],
+            approach:
+                "Managed project milestones and system architecture. Coordinated front-end layout structure in Java Swing and backed it with a PostgreSQL database via JDBC, delegating data auditing to database-level triggers to keep the application lightweight.",
+            links: {
+                pdf: "https://drive.google.com/file/d/12XbIrPSth1Af_WFAESxIOEkjD29BE1PB/view?pli=1"
+            },
+        },
+    },
+    {
+        id: 14,
+        title: "Trip Assistant",
+        description:
+            "An Android travel application designed to streamline trip planning and booking. Built with Java in Android Studio, featuring XML UI design, hybrid data storage via Room and Firebase Cloud Firestore, and Google Maps SDK integration for destination tracking.",
+        technologies: ["Java", "XML", "ROOM", "Firebase", "Maps SDK", "Android Studio"],
+        filters: {
+            type: "Academic",
+            language: ["Java", "XML"],
+            platform: ["Android"],
+            role: ["Software Engineer", "Designer", "Team Lead"],
+        },
+        details: {
+            type: "Academic",
+            period: "May 2022 - Jun 2022 · 2 mos",
+            role: ["Software Engineer", "Designer", "Team Lead"],
+            languages: ["Java", "XML"],
+            platforms: ["Android"],
+            teamSize: "3",
+            contribution:
+                "Guided a 3-person team in building an Android travel application, managing architectural decisions, implementing local Room persistence, configuring remote Firebase synchronization, and integrating Google Maps SDK.",
+            highlights: [
+                "Directed a 3-person development team to build a complete mobile travel planning solution for Android.",
+                "Architected a hybrid database strategy utilizing local Room persistence alongside cloud-based Firebase Cloud Firestore.",
+                "Integrated Google Maps SDK to render interactive destination mapping and location views directly within the app UI.",
+                "Designed clean XML layouts featuring card views, destination lists, and structured travel reservation flows.",
+            ],
+            features: [
+                "Destination Browsing & Reservations: Enables users to explore international travel spots, view pricing details, and organize trip bookings.",
+                "Local Room Database: Utilizes Room DAO interfaces and entities for offline persistence and CRUD operations on local user preferences.",
+                "Cloud Sync with Firestore: Connects to Firebase Cloud Firestore for real-time remote storage and cross-device data backup.",
+                "Interactive Location Mapping: Integrates Google Maps SDK to map precise coordinates and locations for featured destinations.",
+            ],
+            techStack: [
+                "Java", "XML", "ROOM", "Firebase", "Maps SDK", "Android Studio"
+            ],
+            approach:
+                "Led the design of a native Android architecture using Java and XML in Android Studio. Implemented a robust dual-storage strategy by pairing Room for fast local SQLite persistence with Firebase Cloud Firestore for cloud backup. Embedded Google Maps SDK to handle location-based rendering, ensuring smooth UI navigation for trip browsing and booking management.",
+            links: {
+                pdf: "https://drive.google.com/file/d/1FM1A3yfgvndBZdWd7kKZ_R_I8xgee0dE/view"
+            },
+        },
+    },
+    {
+        id: 15,
+        title: "Tic-Tac-Toe",
+        description:
+            "A neon-colored PC version of the well-known game 'Tic Tac Toe'. The game was created in NeBeans, programmed with Java and the GUI was designed with JavaSwing.",
+        technologies: ["Java", "JavaSwing", "NetBeans"],
+        filters: {
+            type: "Academic",
+            language: ["Java"],
+            platform: ["Desktop"],
+            role: ["Software Engineer", "Game Designer", "Team Lead", "Designer"],
+        },
+        details: {
+            type: "Academic",
+            period: "Dec 2021 - Jan 2022 · 2 mos",
+            role: ["Software Engineer", "Game Designer", "Team Lead", "Designer"],
+            languages: ["Java"],
+            platforms: ["Desktop"],
+            teamSize: "3",
+            contribution:
+                "Led a 3-person team in developing a Java desktop application, designing the neon-themed JavaSwing user interface, implementing the turn-switching state logic, and managing win-condition evaluation algorithms.",
+            highlights: [
+                "Directed a 3-person team to build a complete desktop implementation of Tic-Tac-Toe using JavaSwing.",
+                "Designed a custom dark-mode GUI with vibrant, neon-colored visual elements and high-contrast typography.",
+                "Engineered the core game loop logic to handle turn toggling, tile validation, and automatic win/draw detection.",
+                "Integrated persistent session score tracking to maintain game tallies between consecutive rounds.",
+            ],
+            features: [
+                "Interactive 3x3 Grid: Clickable game board tiles that register player inputs and trigger dynamic state updates.",
+                "Live Scorekeeper: Keeps persistent record of accumulated wins for both Player X and Player O across matches.",
+                "Turn Indicator: Dynamically updates the UI to display the active player's turn after each move.",
+                "Round Reset & Control: Quick 'New Game' button to instantly reset the board matrix while retaining current scores, plus a dedicated exit handler.",
+            ],
+            techStack: [
+                "Java", "JavaSwing", "NetBeans"
+            ],
+            approach:
+                "Managed project milestones and core architecture using JavaSwing within NetBeans. Structured the application around event-driven Swing components (`JButton`, `JLabel`), binding custom action listeners to the 3x3 grid matrix to evaluate win conditions dynamically across rows, columns, and diagonals upon every move.",
+            links: {
+                github: "https://github.com/alexoiik/Tic-Tac-Toe",
+                pdf: "https://drive.google.com/file/d/1kMALYqhMI92c4mv7dYavA7wG9njj7VzZ/view"
             },
         },
     },
