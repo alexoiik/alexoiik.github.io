@@ -8,8 +8,8 @@ export const experiences = [
         description:
             "Contributed to the Teleglobal IoT application by implementing major features and enhancing core product functionalities.",
         highlights: [
-            "Architected responsive full-stack IoT dashboards using React, TypeScript, Tailwind CSS, and Shadcn UI, visualizing live data through custom interactive charts and interactive Mapbox geospatial mapping.",
-            "Engineered real-time backend data flows in Python and Django, using Redis, Celery, and WebSockets to stream low-latency IoT device telemetry to thousands of concurrent connections.",
+            "Implemented responsive full-stack IoT dashboards using React, TypeScript, Tailwind CSS, and Shadcn UI, visualizing live data through custom interactive charts and interactive Mapbox geospatial mapping.",
+            "Created real-time backend data flows in Python and Django, using Redis, Celery, and WebSockets to stream low-latency IoT device telemetry to thousands of concurrent connections.",
             "Integrated enterprise Wi-Fi hardware APIs (Ruijie/Aruba) alongside FCM-powered real-time notifications, SMS, and email alerts for instantaneous system event reporting.",
             "Containerized microservices using Docker to streamline local development and production deployments across high-throughput server environments.",
             "Collaborated using Agile/Scrum methodologies in Jira for sprint management (To-Do/Review/Done) and Notion for project timelines, task prioritization, and technical documentation.",

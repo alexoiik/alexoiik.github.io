@@ -139,7 +139,7 @@ export const projects = [
                 "Developed the complete web application and AutoML pipeline for multi-label classification, handling everything from front-end interactivity and user authentication to Python back-end machine learning integrations.",
             highlights: [
                 "Implemented Binary Relevance, Label Powerset, and Classifier Chain problem transformation methods combined with Decision Trees for multi-label classification.",
-                "Engineered an automated hyperparameter tuning (AutoML) system that automatically discovers optimal parameters to maximize accuracy metrics.",
+                "Created an automated hyperparameter tuning (AutoML) system that automatically discovers optimal parameters to maximize accuracy metrics.",
                 "Built interactive visualization tools for structural Decision Tree graphs alongside export capabilities for PKL model binaries and CSV prediction outputs.",
             ],
             features: [
@@ -235,7 +235,7 @@ export const projects = [
                 "Served as Team Lead, Software Engineer, and Designer across a 4-person team, guiding overall project execution, designing the responsive naval-themed UI/UX, and implementing dynamic game state synchronization, AJAX interaction logic, and database integrations for both singleplayer and real-time multiplayer modes.",
             highlights: [
                 "Led a 4-person development team in building an interactive, full-stack web implementation of Battleship featuring real-time state tracking and smooth browser interaction.",
-                "Engineered robust turn-based game logic and automated grid checks to handle real-time hit/miss validations, ship targeting, and fleet destruction rules.",
+                "Created a robust turn-based game logic and automated grid checks to handle real-time hit/miss validations, ship targeting, and fleet destruction rules.",
                 "Designed a custom thematic front-end experience complete with interactive dual-radar grids, light/dark theme toggling, and dedicated gameplay flow screens.",
             ],
             features: [
@@ -278,7 +278,7 @@ export const projects = [
             highlights: [
                 "Implemented core artificial intelligence search algorithms (BFS and DFS) to perform blind search traversals across directed graph structures.",
                 "Built a clear terminal interface that outputs node expansion order, target node discovery, and optimal solution paths.",
-                "Engineered state-space exploration logic utilizing Queue and Stack data structures for systematic node processing.",
+                "Created the exploration logic utilizing Queue and Stack data structures for systematic node processing.",
             ],
             features: [
                 "Dual Execution Scripts: Independent terminal entry points allowing users to execute either Breadth-First Search (BFS) or Depth-First Search (DFS).",
@@ -320,7 +320,7 @@ export const projects = [
             highlights: [
                 "Developed a full-stack open-source platform for discovering, creating, editing, and sharing AI prompts.",
                 "Integrated dynamic tagging and search capabilities to filter prompts instantly by username or topic tags.",
-                "Engineered personalized user profiles enabling creators to view, edit, and delete their submitted prompts.",
+                "Created personalized user profiles enabling creators to view, edit, and delete their submitted prompts.",
             ],
 
             features: [
@@ -404,7 +404,7 @@ export const projects = [
             highlights: [
                 "Modeled a complete, detailed interior scene featuring custom assets, realistic material shaders, and realistic environmental lighting.",
                 "Applied advanced texture mapping techniques including displacement, bump mapping, transparency, and high reflectivity across glass, wood, and fabric surfaces.",
-                "Engineered multiple animation styles within the scene, combining keyframe movement, rigid body physics simulations, and shape key deformations.",
+                "Created multiple animation styles within the scene, combining keyframe movement, rigid body physics simulations, and shape key deformations.",
             ],
             features: [
                 "Realistic Shading & Materials: Features high-reflectivity mirrors, transparent glassware, bump-mapped fabric chairs, and displacement-mapped wooden surfaces.",
@@ -525,7 +525,7 @@ export const projects = [
             contribution:
                 "Executed the end-to-end data analytics workflow in RStudio, handling dataset preprocessing, matrix transformation, kNN algorithm implementation, and rating prediction evaluation.",
             highlights: [
-                "Engineered a collaborative filtering recommender system using the K-Nearest Neighbors algorithm in R to predict reader ratings.",
+                "Created a collaborative filtering recommender system using the K-Nearest Neighbors algorithm in R to predict reader ratings.",
                 "Processed and transformed e-commerce bookstore user-item evaluation datasets to uncover user similarity profiles.",
                 "Optimized distance metrics and neighborhood parameters to improve rating prediction accuracy for unread books.",
             ],
@@ -633,7 +633,7 @@ export const projects = [
         id: 15,
         title: "Tic-Tac-Toe",
         description:
-            "A neon-colored PC version of the well-known game 'Tic Tac Toe'. The game was created in NeBeans, programmed with Java and the GUI was designed with JavaSwing.",
+            "A neon-colored PC version of the well-known game 'Tic Tac Toe'. Features an interactive 3x3 grid matrix, dynamic turn indicators, automatic win detection, and live scorekeeping.",
         technologies: ["Java", "JavaSwing", "NetBeans"],
         filters: {
             type: "Academic",
@@ -653,7 +653,7 @@ export const projects = [
             highlights: [
                 "Directed a 3-person team to build a complete desktop implementation of Tic-Tac-Toe using JavaSwing.",
                 "Designed a custom dark-mode GUI with vibrant, neon-colored visual elements and high-contrast typography.",
-                "Engineered the core game loop logic to handle turn toggling, tile validation, and automatic win/draw detection.",
+                "Created the core game loop logic to handle turn toggling, tile validation, and automatic win/draw detection.",
                 "Integrated persistent session score tracking to maintain game tallies between consecutive rounds.",
             ],
             features: [
@@ -673,4 +673,132 @@ export const projects = [
             },
         },
     },
-];
+    {
+        id: 16,
+        title: "RPS Game",
+        description:
+            "A responsive web-based implementation of the classic Rock-Paper-Scissors game, allowing users to play against an automated computer bot with real-time score tracking.",
+        technologies: ["JavaScript", "HTML", "CSS", "VSCode"],
+        filters: {
+            type: "Personal",
+            language: ["JavaScript", "HTML", "CSS"],
+            platform: ["Web"],
+            role: ["Software Engineer", "Game Designer", "Designer"],
+        },
+        details: {
+            type: "Personal",
+            period: "Sept 2022 · 1 mo",
+            role: ["Software Engineer", "Game Designer", "Designer"],
+            languages: ["JavaScript", "HTML", "CSS"],
+            platforms: ["Web"],
+            teamSize: "1",
+            contribution:
+                "Designed and developed the entire web application single-handedly, handling pure JavaScript game logic, HTML structuring, CSS layout styling, and background visual integration.",
+            highlights: [
+                "Built a fully interactive, lightweight web game using vanilla JavaScript without external framework dependencies.",
+                "Implemented an automated opponent bot that randomly selects moves to challenge the player.",
+                "Designed an intuitive UI featuring custom cartoon icon assets and high-contrast scoreboard design.",
+            ],
+            features: [
+                "Interactive Move Selection: Clickable circular icon buttons representing Rock, Paper, and Scissors choices.",
+                "Automated Computer Opponent: Dynamic JavaScript logic that generates randomized bot responses upon user selection.",
+                "Real-Time Scoreboard: Live score counter displaying updated User vs. Bot performance across rounds.",
+                "Styled Web Interface: Clean dark-themed aesthetic with custom typography and full-screen background image integration.",
+            ],
+            techStack: [
+                "JavaScript", "HTML", "CSS", "VSCode"
+            ],
+            approach:
+                "Built using vanilla web technologies focusing on DOM manipulation and event-driven architecture. Structured the UI in semantic HTML5 and CSS3, then attached JavaScript event listeners to the move buttons to compare user choices against randomized bot decisions, dynamically updating the DOM scoreboard and win/loss notifications.",
+            links: {
+                github: "https://github.com/alexoiik/Rock-Paper-Scissors-Game",
+                web: "https://alexoiik.github.io/Rock-Paper-Scissors-Game/RPS_Game",
+            },
+        },
+    },
+    {
+        id: 17,
+        title: "Arduino Embedded Systems",
+        description:
+            "Two embedded systems created with Arduino Uno on Tinkercad and programmed with C++. A Temperature Measurement System and a Modern Traffic Light System.",
+        technologies: ["C++", "Arduino"],
+        filters: {
+            type: "Academic",
+            language: ["C++"],
+            platform: ["Web"],
+            role: ["Software Engineer"],
+        },
+        details: {
+            type: "Academic",
+            period: "Jun 2021 · 1 mo",
+            role: ["Software Engineer"],
+            languages: ["C++"],
+            platforms: ["Web"],
+            teamSize: "1",
+            contribution:
+                "Designed circuit schematics and wrote C++ firmware algorithms on Tinkercad, integrating analog sensor polling, state machine timing, threshold logic, and button interrupt triggers for two distinct Arduino systems.",
+            highlights: [
+                "Created two custom C++ Arduino prototypes utilizing virtual sensors, RGB LEDs, discrete timing loops, and button interrupts.",
+                "Designed a temperature monitoring unit that dynamically triggers RGB color states based on analog sensor thresholds.",
+                "Built a state-driven traffic control circuit featuring timed LED light sequences and priority pedestrian override buttons.",
+            ],
+            features: [
+                "Dynamic Temperature Polling: Samples a TMP36 sensor every 2.5 seconds, mapping outputs to serial output and RGB states (>25°C Red, <5°C Blue, Yellow default).",
+                "Manual Sensor Override: Integrated pushbuttons to trigger immediate temperature sampling and visual status updates outside the polling loop.",
+                "Automated Traffic Cycling: Runs continuous 15-second light state transitions across Green, Orange, and Red LEDs.",
+                "Pedestrian Priority Signal: Intercepts active light cycles upon button press to immediately transition signals to red for safe crossing.",
+            ],
+            techStack: [
+                "C++", "Arduino"
+            ],
+            approach:
+                "Constructed virtual breadboard schematics in Tinkercad and authored embedded C++ routines to manage hardware I/O pins. Used state machines to control traffic light delays and pedestrian overrides, while structuring analog-to-digital conversions to map TMP36 sensor signals into conditional RGB color triggers.",
+            links: {
+                github: "https://github.com/alexoiik/Embedded-Systems-w-Arduino",
+            },
+        },
+    },
+    {
+        id: 18,
+        title: "Personal Website",
+        description:
+            "My first Personal Website, created from scratch in VSCode, using HTML, CSS and JavaScript. Created for University's course 'Web Languages and Technologies'.",
+        technologies: ["JavaScript", "HTML", "CSS", "VSCode"],
+        filters: {
+            type: "Academic",
+            language: ["JavaScript", "HTML", "CSS"],
+            platform: ["Web"],
+            role: ["Software Engineer", "Designer"],
+        },
+        details: {
+            type: "Academic",
+            period: "Nov 2020 - Dec 2020 · 2 mos",
+            role: ["Software Engineer", "Designer"],
+            languages: ["JavaScript", "HTML", "CSS"],
+            platforms: ["Web"],
+            teamSize: "1",
+            contribution:
+                "Implemented the entire web application independently from scratch in VSCode, creating custom CSS layouts, hexagonal navigation components, and structured content pages for academic evaluation.",
+            highlights: [
+                "Developed a full personal web application from scratch using vanilla web technologies (HTML5, CSS3, JavaScript).",
+                "Designed a custom honeycomb menu layout utilizing CSS clip-paths and grid structures for navigation.",
+                "Integrated multi-section content architectures covering personal background, academic studies, media interests, and contact links.",
+            ],
+            features: [
+                "Hexagonal Navigation Grid: Custom visual menu featuring interactive tile cards for quick access to Home, Profile, Contact, Gallery, Music, and Movies.",
+                "Interactive Hero Section: Branded landing banner displaying user profile imagery, modern typography, and a welcome section.",
+                "Structured Profile Module: Sectioned page layout highlighting university department information, academic studies, and personal interests.",
+                "Responsive Web Layout: Styled with custom CSS backgrounds, high-contrast typography overlays, and custom UI components.",
+            ],
+            techStack: [
+                "JavaScript", "HTML", "CSS", "VSCode"
+            ],
+            approach:
+                "Focused on learning core web fundamentals by constructing the site without external frameworks. Created semantic HTML markup, structured content hierarchy, and applied advanced CSS techniques to create dynamic visual elements, such as the custom hexagonal menu grid, while using JavaScript to handle page navigation and DOM interactions.",
+            links: {
+                github: "https://github.com/alexoiik/Personal-Website",
+                web: "https://users.iee.ihu.gr/~iee2019119/alexoiikHomepage.html"
+            },
+        },
+    },
+]; 
