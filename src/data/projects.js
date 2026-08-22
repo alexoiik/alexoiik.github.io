@@ -1,6 +1,50 @@
 export const projects = [
     {
         id: 1,
+        title: "Frequency X",
+        description:
+            "A modern single-page website for promoting exclusive pool parties hosted at private luxury villas, built with React, Vite, JavaScript, and Tailwind CSS.",
+        technologies: ["React", "JavaScript", "HTML", "TailwindCSS", "Vite"],
+        filters: {
+            type: "Personal",
+            language: ["React", "JavaScript", "HTML", "TailwindCSS"],
+            platform: ["Web"],
+            role: ["Software Engineer", "Designer"],
+        },
+        details: {
+            type: "Personal",
+            period: "Jul 2026 - Aug 2026 · 2 mos",
+            role: ["Software Engineer", "Designer"],
+            languages: ["React", "JavaScript", "HTML", "TailwindCSS"],
+            platforms: ["Web"],
+            teamSize: "1",
+            contribution:
+                "Architected and designed the entire single-page web application from scratch as a solo developer, handling end-to-end UI/UX design, component engineering, custom Tailwind animations, and deployment via Vercel.",
+            highlights: [
+                "Designed a distinct cyber-dark visual brand featuring dynamic glitch typography and custom neon UI accents.",
+                "Engineered interactive artist lineup cards powered by pure CSS real-time audio equalizer animations.",
+                "Implemented an intuitive event history ledger with status indicators for tracking past and upcoming party editions.",
+                "Optimized asset loading and layout responsiveness to achieve fast load times and seamless mobile playback."
+            ],
+            features: [
+                "Interactive DJ Roster with hover micro-interactions and animated equalizer visualizers.",
+                "Secret Location Drop section complete with entry protocols and integrated Instagram RSVP access.",
+                "Event Series Timeline with live status pills (COMPLETED vs UPCOMING).",
+                "Responsive, single-page cyber-themed layout optimized across mobile, tablet, and desktop viewports."
+            ],
+            techStack: [
+                "React", "JavaScript", "HTML", "TailwindCSS", "Vite"
+            ],
+            approach:
+                "Focused on creating an immersive, dark-mode visual experience by configuring custom Tailwind CSS color extensions, dynamic utility classes, and inline SVGs. Leveraged Vite and React's modular structure to maintain lightweight performance, smooth UI transitions, and clean code scalability without reliance on heavy external UI libraries.",
+            links: {
+                github: "https://github.com/alexoiik/frequency-x",
+                web: "https://frequency-x.vercel.app"
+            },
+        },
+    },
+    {
+        id: 2,
         title: "Personal Portfolio Website",
         description:
             "A modern, responsive portfolio built with React and TailwindCSS to showcase my projects, skills, and experience.",
@@ -69,7 +113,7 @@ export const projects = [
         },
     },
     {
-        id: 2,
+        id: 3,
         title: "Tourvisto",
         description:
             "A modern, AI-enhanced dashboard built for travel agencies to manage destinations, bookings, customers, analytics, and AI-powered assistance.",
@@ -117,7 +161,7 @@ export const projects = [
         },
     },
     {
-        id: 3,
+        id: 4,
         title: "MultilabelDTree",
         description:
             "An Automated Machine Learning Web Application for Classifying Multi-Label Data through Decision Trees, incorporating the famous techniques of Problem Transformation Approaches.",
@@ -168,7 +212,7 @@ export const projects = [
         },
     },
     {
-        id: 4,
+        id: 5,
         title: "DataBoard",
         description:
             "A Dashboard that offers data and comprehensive information about videos. DataBoard provides a holistic overview of video performance, including users, views and durations.",
@@ -213,7 +257,7 @@ export const projects = [
         },
     },
     {
-        id: 5,
+        id: 6,
         title: "Battleship Game",
         description:
             "A web-based implementation of the classic Battleship naval strategy board game. Players strategically deploy a fleet across coordinate grids and take turns targeting enemy waters to sink opposing ships in both Singleplayer and Multiplayer modes.",
@@ -255,7 +299,7 @@ export const projects = [
         },
     },
     {
-        id: 6,
+        id: 7,
         title: "AI Graph Search",
         description:
             "A smart graph search based on the fundamental AI algorithms: BFS (Breadth-First Search) and DFS (Depth First Search).",
@@ -297,7 +341,7 @@ export const projects = [
         },
     },
     {
-        id: 7,
+        id: 8,
         title: "Prompt Genius",
         description:
             "A revolutionary open-source AI prompting tool that empowers users to unlock their creativity and imagination. This innovative web application provides an accessible platform for individuals of all backgrounds to explore, generate, and share brilliant AI prompts.",
@@ -339,7 +383,7 @@ export const projects = [
         },
     },
     {
-        id: 8,
+        id: 9,
         title: "Petrun Stories",
         description:
             "The official web platform for Petrun Stories, Greece's YouTube channel dedicated to Sports Science and Physical Education. The site bridges science communication and athletic education by offering scientifically backed articles, diary posts, and multimedia resources in an accessible format.",
@@ -381,7 +425,7 @@ export const projects = [
         },
     },
     {
-        id: 9,
+        id: 10,
         title: "Breakfast in the Dining Room",
         description:
             "A 3D scene that presents a realistic depiction of a breakfast in the dining room, inside a house. Created with Blender from scratch.",
@@ -422,7 +466,7 @@ export const projects = [
         },
     },
     {
-        id: 10,
+        id: 11,
         title: "Data Mining Investigation",
         description:
             "Costumers' churn rate investigation of a telecommunication company, using python, scikit-learn and a two-dimensional dataset. This investigation was an assessment by university's course 'Data Organization and Data Mining' and completed through Visual Studio Code with classification and clustering algorithms.",
@@ -463,7 +507,7 @@ export const projects = [
         },
     },
     {
-        id: 11,
+        id: 12,
         title: "Public Key Cryptography with RSA",
         description:
             "A simple implementation of Public Key Cryptography, using RSA Cryptographic Algorithm (with Java).",
@@ -504,7 +548,7 @@ export const projects = [
         },
     },
     {
-        id: 12,
+        id: 13,
         title: "Recommender System",
         description:
             "A book recommender system built in R that predicts potential user ratings based on historical preference data. Developed as part of the 'Data Analytics' course using the K-Nearest Neighbors (kNN) algorithm on e-commerce reader evaluation datasets.",
@@ -545,7 +589,7 @@ export const projects = [
         },
     },
     {
-        id: 13,
+        id: 14,
         title: "UniSystem",
         description:
             "A University Information System, created for the purpose of an easy and smooth storage of all students, and their information, in the system of a University. This project created in NetBeans, programmed with Java and the GUI designed with JavaSwing. UniSystem saves its data to PostgreSQL, using JDBC.",
@@ -587,7 +631,7 @@ export const projects = [
         },
     },
     {
-        id: 14,
+        id: 15,
         title: "Trip Assistant",
         description:
             "An Android travel application designed to streamline trip planning and booking. Built with Java in Android Studio, featuring XML UI design, hybrid data storage via Room and Firebase Cloud Firestore, and Google Maps SDK integration for destination tracking.",
@@ -630,7 +674,7 @@ export const projects = [
         },
     },
     {
-        id: 15,
+        id: 16,
         title: "Tic-Tac-Toe",
         description:
             "A neon-colored PC version of the well-known game 'Tic Tac Toe'. Features an interactive 3x3 grid matrix, dynamic turn indicators, automatic win detection, and live scorekeeping.",
@@ -674,7 +718,7 @@ export const projects = [
         },
     },
     {
-        id: 16,
+        id: 17,
         title: "RPS Game",
         description:
             "A responsive web-based implementation of the classic Rock-Paper-Scissors game, allowing users to play against an automated computer bot with real-time score tracking.",
@@ -717,7 +761,7 @@ export const projects = [
         },
     },
     {
-        id: 17,
+        id: 18,
         title: "Arduino Embedded Systems",
         description:
             "Two embedded systems created with Arduino Uno on Tinkercad and programmed with C++. A Temperature Measurement System and a Modern Traffic Light System.",
@@ -759,7 +803,7 @@ export const projects = [
         },
     },
     {
-        id: 18,
+        id: 19,
         title: "Personal Website",
         description:
             "My first Personal Website, created from scratch in VSCode, using HTML, CSS and JavaScript. Created for University's course 'Web Languages and Technologies'.",
